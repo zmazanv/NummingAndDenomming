@@ -14,7 +14,7 @@ public class Main {
             }
             double quotient = numerator / denominator;
             if ((quotient / Math.floor(quotient)) == 1) {
-                System.out.println("The quotient is " + (int)quotient + '.');
+                System.out.printf("The quotient is %.0f.%n", quotient);
             } else {
                 System.out.println("The quotient is: " + quotient + '.');
             }
@@ -32,4 +32,5 @@ public class Main {
     public static void main(String[] args) {
         divider();
     }
+
 }
