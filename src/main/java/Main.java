@@ -23,11 +23,9 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Number input is required to divide. Please try again with valid number input.");
-                e.printStackTrace();
                 scanner.nextLine();
             } catch (ArithmeticException e) {
                 System.out.println("It is not possible to divide by zero. Please try again using a valid value.");
-                e.printStackTrace();
             }
         }
         scanner.close();
